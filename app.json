@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "GetStarted",
+    "slug": "getstarted",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sannadi1.getstarted"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.sannadi1.getstarted"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5d1740ab-55aa-4c31-a4a4-3335c8e507ae"
+      }
+    },
+    "owner": "sannadi1",
+    "updates": {
+      "url": "https://u.expo.dev/5d1740ab-55aa-4c31-a4a4-3335c8e507ae"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
